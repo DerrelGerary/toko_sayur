@@ -248,14 +248,6 @@ class _GroceryHomeScreenState extends State<GroceryHomeScreen>
     String heroKey = Generator.getRandomString(10);
 
     return InkWell(
-      onTap: () {
-        Navigator.push(
-            widget.rootContext,
-            PageRouteBuilder(
-                transitionDuration: const Duration(milliseconds: 500),
-                pageBuilder: (_, __, ___) =>
-                    GrocerySingleProductScreen(product, heroKey)));
-      },
       child: FxContainer(
         margin: Spacing.bottom(16),
         color: AppTheme.customTheme.groceryBg2,
