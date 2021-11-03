@@ -40,7 +40,7 @@ class _GroceryProfileScreenState extends State<GroceryProfileScreen>
             ),
             FxSpacing.height(16),
             const Center(
-              child: FxText.b1("Derel Saputra", fontWeight: 600),
+              child: FxText.b1("Selamat Datang", fontWeight: 600),
             ),
             FxSpacing.height(32),
             InkWell(

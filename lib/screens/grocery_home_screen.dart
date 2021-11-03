@@ -56,7 +56,7 @@ class _GroceryHomeScreenState extends State<GroceryHomeScreen>
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      FxText.h6("Hi, Derel!",
+                      FxText.h6("Selamat Datang!",
                           color: AppTheme.theme.colorScheme.onBackground,
                           fontWeight: 600),
                       InkWell(
